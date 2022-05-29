@@ -16,7 +16,7 @@ app.get('/', (req, res)=>{
 	res.json({name: 'jocelin kisenga'});
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8082;
 
 app.listen(PORT, ()=>{
 	console.log(`server running at port ${PORT}`);
